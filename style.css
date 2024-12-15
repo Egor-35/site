@@ -1,0 +1,36 @@
+body {
+    font-family: Inter; /* Семейство шрифтов */
+    font-size: 30px; /* Размер основного шрифта в <p></p>  */
+    background-color: #2D283E; /* Цвет фона веб-страницы */
+    color: #D1D7E0; /* Цвет основного текста */ 
+}
+h1 {
+    color: #FD98FB; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: 'Times New Roman'; /* Семейство шрифтов */
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+    0% {
+      color: #802BB1;
+    }
+  
+    50% {
+      color: #9e02f8;
+    }
+  
+    100% {
+      color: #802BB1;
+    }
+}
+.container {
+  display: flex;
+  align-items: center; 
+}
+
+.container img {
+  max-width: 50%;   margin-right: 20px; }
+
+.container p {
+  flex: 1; 
+}
